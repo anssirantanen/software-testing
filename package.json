@@ -7,7 +7,13 @@
   "scripts": {
     "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
-  "author": "",
+
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mikaptuni/testing-assignment"
+  },
+  
+  "author": "Mika Peltokorpi, Anssi Rantanen",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {}
