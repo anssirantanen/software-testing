@@ -1,4 +1,5 @@
-import createMathOperation from './.internal/createMathOperation.js'
+// import createMathOperation from './.internal/createMathOperation.js'
+createMathOperation = require('./.internal/createMathOperation')
 
 /**
  * Adds two numbers.

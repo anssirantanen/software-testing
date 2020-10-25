@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint 'INIT_CWD%/src/*.js'",
     "lint:fix": "prettier-eslint  %INIT_CWD%/src/*.{js,jsx} --write",
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,13 @@
   },
   "author": "Mika Peltokorpi, Anssi Rantanen",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
+    "rollup": "^2.32.1",
+    "rollup-plugin-babel": "^4.4.0"
+  },
   "devDependencies": {
     "eslint": "^7.12.0",
     "eslint-config-standard": "^15.0.0",
