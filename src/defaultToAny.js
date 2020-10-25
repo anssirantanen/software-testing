@@ -25,7 +25,7 @@ import defaultTo from './defaultTo.js'
  * defaultToAny(undefined, null, NaN)
  * // => NaN
  */
-function defaultToAny(value, ...defaultValues) {
+function defaultToAny (value, ...defaultValues) {
   return arrayReduce(defaultValues, defaultTo, value)
 }
 

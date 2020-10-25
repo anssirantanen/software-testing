@@ -19,7 +19,7 @@
  * every([true, 1, null, 'yes'], Boolean)
  * // => false
  */
-function every(array, predicate) {
+function every (array, predicate) {
   let index = -1
   const length = array == null ? 0 : array.length
 

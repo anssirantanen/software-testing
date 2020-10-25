@@ -1,4 +1,3 @@
-
 /**
  * Casts `value` as an array if it's not one.
  *
@@ -30,7 +29,7 @@
  * console.log(castArray(array) === array)
  * // => true
  */
-function castArray(...args) {
+function castArray (...args) {
   const value = args[0]
   return Array.isArray(value) ? value : [value]
 }

@@ -23,7 +23,7 @@ import isLength from './isLength.js'
  * isArrayLike(Function)
  * // => false
  */
-function isArrayLike(value) {
+function isArrayLike (value) {
   return value != null && typeof value !== 'function' && isLength(value.length)
 }
 

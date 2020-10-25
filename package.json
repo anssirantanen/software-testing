@@ -5,16 +5,27 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "lint": "eslint 'INIT_CWD%/src/*.js'",
+    "lint:fix": "prettier-eslint  %INIT_CWD%/src/*.{js,jsx} --write",
     "test": "echo \"Error: no tests are implemented yet \" && exit 1"
   },
-
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/mikaptuni/testing-assignment"
+    "type": "git",
+    "url": "https://github.com/mikaptuni/testing-assignment"
   },
-  
   "author": "Mika Peltokorpi, Anssi Rantanen",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-standard": "^4.0.2",
+    "jest": "^26.6.1",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  }
 }

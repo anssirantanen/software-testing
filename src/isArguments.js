@@ -16,7 +16,7 @@ import isObjectLike from './isObjectLike.js'
  * isArguments([1, 2, 3])
  * // => false
  */
-function isArguments(value) {
+function isArguments (value) {
   return isObjectLike(value) && getTag(value) == '[object Arguments]'
 }
 

@@ -20,13 +20,12 @@
  * endsWith('abc', 'b', 2)
  * // => true
  */
-function endsWith(string, target, position) {
+function endsWith (string, target, position) {
   const { length } = string
   position = position === undefined ? length : +position
   if (position < 0 || position != position) {
     position = 0
-  }
-  else if (position > length) {
+  } else if (position > length) {
     position = length
   }
   const end = position

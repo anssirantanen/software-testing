@@ -11,7 +11,7 @@
  * compact([0, 1, false, 2, '', 3])
  * // => [1, 2, 3]
  */
-function compact(array) {
+function compact (array) {
   let resIndex = -1
   const result = []
 
