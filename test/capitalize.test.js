@@ -7,7 +7,7 @@ test('Return already capitalized', () => {
     expect(capitalize("Capitalized")).toBe("Capitalized")
 })
 test('Capitalize first letter', () => {
-    expect(capitalize("small letters only")).toBe("small letters only")
+    expect(capitalize("small letters only")).toBe("Small letters only")
 })
 test('Handle all caps', () => {
     expect(capitalize("ALL CAPS")).toBe("All caps")
