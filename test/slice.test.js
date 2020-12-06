@@ -5,7 +5,7 @@ test('handle empty array', () => {
     expect(slice([], 0, 1)).toStrictEqual([])
 })
 test('handle start of array', () => {
-    expect(slice([1, 2, 3], 0, 2)).toStrictEqual([1, 2, 3])
+    expect(slice([1, 2, 3], 0, 2)).toStrictEqual([1, 2])
 })
 test('handle offset', () => {
     expect(slice([1, 2, 3, 4], 1, 2)).toStrictEqual([2, 3])
