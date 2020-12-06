@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint 'INIT_CWD%/src/*.js'",
     "lint:fix": "prettier-eslint  %INIT_CWD%/src/*.{js,jsx} --write",
-    "test": "jest"
+    "test": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "babel-jest": "^26.6.3",
+    "coveralls": "^3.1.0",
     "eslint": "^7.12.0",
     "eslint-config-standard": "^15.0.0",
     "eslint-plugin-import": "^2.22.1",
