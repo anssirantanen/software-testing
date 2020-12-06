@@ -1,5 +1,5 @@
 # Student template
-
+https://travis-ci.org/anssirantanen/software-testing.svg?branch=main
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
