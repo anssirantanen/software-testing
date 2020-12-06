@@ -2,7 +2,8 @@ language: node_js
 node_js:
   - lts/*
 cache: npm
-
+install:
+  - yarn
 script: echo "Running tests against $(node -v)..."
 
 jobs:
